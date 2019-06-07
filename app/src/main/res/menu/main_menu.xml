@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/btnAddContact"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="Add Contact"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/btnRefresh"
+        android:title="Refresh Contacts" />
+    <item
+        android:id="@+id/btnappSearch"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="ifRoom" />
+</menu>
